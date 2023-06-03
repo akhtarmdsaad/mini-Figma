@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    height: 100vh;
+}
+
+.name_boxes{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(207, 221, 79, 0.5));
+    opacity: 0.7;
+    border-radius: 25px;
+    height: 100%;
+    min-width: 200px;
+    /* width: 200px; */
+    box-shadow: 0px 5px 20px 0px rgba(207, 221, 79, 0.5);
+    padding: 20px 10px 10px 10px;  
+    /*        t    r    b    l*/
+    margin: 50px;
+    transition: box-shadow 0.4s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 20px; */
+}
+
+.name_boxes div{
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: rgba(232, 166, 80, 0.5);
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-family:monospace;
+    border-radius: 25px;
+    /* width: 5/0%; */
+}
+
+.name_boxes div.select{
+    background:lightblue;
+    border-color: blue;
+}
+
+.name_boxes div input{
+    border:none;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+
+.name_boxes div:hover{
+    /* transition: background 0.5s; */
+    background:linear-gradient(white,rgba(230, 184, 124, 0.5))
+}
+
+.name_boxes div:active{
+    background-color: red;
+}
+.name_boxes:hover{
+    box-shadow: 0px 5px 20px 0px rgba(207, 221, 79, 0.5),
+    0px 5px 20px 100px rgba(207, 221, 79, 0.5),
+    0px 5px 20px 0px rgba(207, 221, 79, 0.5),
+    0px 5px 20px 0px rgba(207, 221, 79, 0.5),
+    0px 5px 20px 0px rgba(207, 221, 79, 0.5),
+    inset 5px 5px 20px 0px rgba(255,255,255,0.7),
+    inset 5px 5px 20px 0px rgba(255,255,255,0.7),
+    inset 5px 5px 20px 0px rgba(255,255,255,0.7),
+    inset 5px 5px 20px 0px rgba(255,255,255,0.7),
+    inset 5px 5px 20px 0px rgba(255,255,255,0.7);
+    transition: box-shadow 0.4s;
+}
+
+.name_boxes div{
+    width:100%;
+}
+
+
+
+
+.tools{
+    max-width: 150px;
+    background: linear-gradient(rgba(226, 177, 177,0.8),rgba(211, 179, 97, 0.8));
+    padding: 10px 100px 10px 70px;
+    /*        t    r    b    l*/
+    margin: 50px;
+    margin-top:inherit;
+    overflow: auto;
+    opacity: 0.7;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: max-content;
+    /* transform: scale(80%,90%); */
+}
+
+.playground div{
+    background-color: antiquewhite;
+    position:absolute;
+    /* transition: 0.1s ease-in-out; */
+}
+
+.playground div:hover{
+    background-color: rgb(136, 166, 223);
+    /* transition: 0.1s ease-in-out; */
+}
+
+
+.playground > .select,.playground div.select:hover{
+    background-color: cornflowerblue;
+}
+.add{
+    background-color: greenyellow;
+    width: 100%;
+    height: 50px;
+    border: none;
+    color:blue;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-bottom:10px;
+    font-size: larger;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+
+input[type="number"]:focus{
+	cursor:w-resize;
+}
+
+.playground{
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+    margin: 50px;
+    box-shadow: 0px 0px 50px black;    
+    overflow: hidden;
+    position:relative;
+}
+
+.set{
+    margin-top: 5px;
+}
+
+.zindex{
+    margin-bottom: 5px;
+}
+
+.submit_design{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    padding: 5px;
+    z-index: 60;
+    outline: none;
+    border: 3px solid rgba(211, 179, 97, 0.8);
+    color:chocolate;
+    background-color: cornsilk;
+    cursor: pointer;
+    border-radius: 25px;
+}
