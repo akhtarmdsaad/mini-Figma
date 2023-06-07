@@ -23,4 +23,8 @@ The left panel is full of customisable stuffs to change the behaviour of Box. Th
 - [@akhtarmdsaad](https://www.github.com/akhtarmdsaad)
 
 ## Demo
-![Mini Figma](https://github.com/akhtarmdsaad/mini-Figma/blob/main/demo.gif)
+![demo](https://github.com/akhtarmdsaad/mini-Figma/assets/57033728/f7b83a4e-0fae-4dfb-bd94-61216efcacb8)
+
+## Result
+
+![16](https://github.com/akhtarmdsaad/mini-Figma/assets/57033728/059a607f-82de-4655-bcc6-4f9265f94b68)
