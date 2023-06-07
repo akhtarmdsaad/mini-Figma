@@ -15,7 +15,11 @@ The left panel is full of customisable stuffs to change the behaviour of Box. Th
 - z-index (the priority to keep on top of another boxes) 
 - height and width 
 
-
+The Right side is panel board Where you can name and manage boxes. 
+I am no done yet!!
+Looking Forward to improve this project. 
+Contributors are welcome. 
+Feel free to Fork this and if you like add stars to it.
 
 
 ## Authors
