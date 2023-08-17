@@ -25,6 +25,8 @@ Feel free to Fork this and if you like add stars to it.
 ## Authors
 
 - [@akhtarmdsaad](https://www.github.com/akhtarmdsaad)
+- [@d4vc-198](https://github.com/D4vc-198)
+
 
 ## Demo
 ![demo](https://github.com/akhtarmdsaad/mini-Figma/assets/57033728/f7b83a4e-0fae-4dfb-bd94-61216efcacb8)
