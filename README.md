@@ -25,10 +25,12 @@ Feel free to Fork this and if you like add stars to it.
 ## Authors
 
 - [@akhtarmdsaad](https://www.github.com/akhtarmdsaad)
+- [@d4vc-198](https://github.com/D4vc-198)
+
 
 ## Demo
 ![demo](https://github.com/akhtarmdsaad/mini-Figma/assets/57033728/f7b83a4e-0fae-4dfb-bd94-61216efcacb8)
 
 ## Result
+![Captura de pantalla 2023-08-17 131309](https://github.com/D4vc-198/mini-Figma/assets/69604964/292d2fc2-685b-4a4c-8cfb-902624e14409)
 
-![16](https://github.com/akhtarmdsaad/mini-Figma/assets/57033728/059a607f-82de-4655-bcc6-4f9265f94b68)

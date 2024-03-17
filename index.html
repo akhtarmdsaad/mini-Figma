@@ -1,54 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Draw html here</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8d8786042e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <input type="submit" value="Get the code" class="submit_design">
+    <!-- Sidebar -->
     <div class="tools">
-        <button class="add">Add</button>
-        <hr>
-        <div class="border">
-            <span style="margin:0 0 0 50px;text-transform: uppercase;">Border</span> <br>
-            width: <input type="text" name="" class="bd_w">
-            radius: <input type="text" name="" class="bd_r">
-            color: <input type="text" name="" class="bd_color">
+        <!-- BORDER CONTAINER -->
+        <div class="border-container">
+            <!-- BUTTON SHOW/HIDE -->
+            <div class="showHide" id="showBorder" onclick="show(event)">Border <i id="showBorder-icon"
+                    class="fa-solid fa-arrow-down"></i></i></div>
+            <!-- ELEMENTS BORDER -->
+            <ul class="showBorder-items toolsInputContainer" id="showBorder-items">
+                <li><span>width:</span><input type="text" name="" class="bd_w"></li>
+                <li><span>radius:</span> <input type="text" name="" class="bd_r"></li>
+                <li><span>color:</span> <input type="text" name="" class="bd_color"></li>
+            </ul>
         </div>
-        <span style="margin:0 0 0 50px;text-transform: uppercase;">color</span>
-        <input type="text" class="color">
-        <span style="text-transform: uppercase;display:flex;text-align: center;">background color</span><input type="text" class="bg">
-        <span style="margin:0 0 0 50px;text-transform: uppercase;">rotate</span>
-        <input type="number" name="" class="rotate">
-        <div class="position">
-            <span style="margin:0 0 0 50px;text-transform: uppercase;">Resize</span>
-            <br>
-            Width: <input type="number" name="" class="scale_x">
-            Height: <input type="number" name="" class="scale_y">
-            
-
+        <!-- COLOR CONTAINER -->
+        <div class="color-container">
+            <!-- BUTTON SHOW/HIDE -->
+            <div class="showHide" id="showColor" onclick="show(event)">Color <i id="showColor-icon"
+                    class="fa-solid fa-arrow-down"></i></i></div>
+            <!-- ELEMENTS COLORS -->
+            <ul class="showColor-items toolsInputContainer" id="showColor-items">
+                <li><span>Color:</span> <input type="text" class="color"></li>
+                <li><span>Background-color:</span> <input type="text" class="bg"></li>
+            </ul>
         </div>
-        <div class="position">
-            <span style="margin:0 0 0 50px;text-transform: uppercase;">position</span>
-            <br>
-            X: <input type="number" name="" class="p_x">
-            Y: <input type="number" name="" class="p_y">
-            
-
+        <!--SIZE CONTAINER -->
+        <div class="size-container">
+            <!-- BUTTON SHOW/HIDE -->
+            <div class="showHide" id="showSize" onclick="show(event)">Size <i id="showSize-icon"
+                    class="fa-solid fa-arrow-down"></i></i></div>
+            <!-- ELEMENTS /SIZE -->
+            <ul class="showSize-items toolsInputContainer" id="showSize-items">
+                <li><span>Width:</span><input type="number" name="" class="scale_x"></li>
+                <li><span>Height:</span> <input type="number" name="" class="scale_y"></li>
+            </ul>
         </div>
-        Z-Index: <input type="number" name="" class="zindex">
-        <hr>
-        <button class="set add">Set</button>
+        <!-- POSITION CONTAINER -->
+        <div class="position-container">
+            <!-- BUTTON SHOW/HIDE -->
+            <div class="showHide" id="showPosition" onclick="show(event)">Position <i id="showPosition-icon"
+                    class="fa-solid fa-arrow-down"></i></i></div>
+            <!-- ELEMENTS POSITION -->
+            <ul class="showPosition-items toolsInputContainer" id="showPosition-items">
+                <li><span>Rotation:</span><input type="number" name="" class="rotate"></li>
+                <li><span>X:</span> <input type="number" name="" class="p_x"></li>
+                <li><span>Y:</span> <input type="number" name="" class="p_y"></li>
+                <li><span>Z-Index:</span> <input type="number" name="" class="zindex"></li>
+            </ul>
+        </div>
+        <div class="button-container">
+            <button class="add">Add</button>
+            <button class="set add">Set</button>
+        </div>
+    </div>
     </div>
     <!-- <button class="get">Get</button> -->
+    <!-- Screen items -->
     <div class="playground">
     </div>
+    <!-- Name Boxesk -->
     <div class="name_boxes">
     </div>
-    <script src="script.js"></script>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/showHide.js"></script>
     <!-- <script src="../jquery.js"></script> -->
 </body>
+
 </html>
