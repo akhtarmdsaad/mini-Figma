@@ -139,7 +139,7 @@ function select_box(event){
     // selected.box.addEventListener("mousedown", dragStart, false);
     // document.addEventListener("mouseup", dragEnd, false);
     // document.addEventListener("mousemove", drag, false);
-    selected.box.addEventListener("mousemove",(event)=>{
+    window.addEventListener("mousemove",(event)=>{
         if(event.buttons==1){
             
             no = (event.pageX - playground.offsetLeft)//parseInt(selected.box.style.left) + 
